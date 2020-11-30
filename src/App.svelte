@@ -1,5 +1,5 @@
 <script>
-  export let name;
+  export let name
 </script>
 
 <style global>
@@ -12,9 +12,10 @@
 </style>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1 class="text-xl">Hello {name}!</h1>
   <p class="p-2">
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
+    Visit the
+    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
+    to learn how to build Svelte apps.
   </p>
 </main>
